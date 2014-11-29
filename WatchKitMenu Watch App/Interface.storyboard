@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--EARwatch-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                <controller title="EARwatch" id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
                         <button alignment="center" verticalAlignment="center" title="Teenage Retirement" id="uOD-ek-DHq">
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -43,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="136"/>
         </scene>
-        <!--Table Holder Controller-->
+        <!--Songs-->
         <scene sceneID="C9x-wc-ES4">
             <objects>
-                <controller id="3SS-xt-sWt" customClass="TableHolderController">
+                <controller title="Songs" id="3SS-xt-sWt" customClass="TableHolderController">
                     <items>
                         <table alignment="left" layout="vertical" id="EN2-fw-yoM">
                             <items>
@@ -73,4 +73,5 @@
             <point key="canvasLocation" x="317" y="138"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="1" green="0.80956299578076663" blue="0.67348388892573496" alpha="1" colorSpace="calibratedRGB"/>
 </document>
