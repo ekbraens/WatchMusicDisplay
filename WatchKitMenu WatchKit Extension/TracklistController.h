@@ -11,6 +11,8 @@
 
 @interface TracklistController : NSObject
 
+// need to be protected to interact with the interface controller
+// that holds the table
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *numberLabel;
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *titleLabel;
 

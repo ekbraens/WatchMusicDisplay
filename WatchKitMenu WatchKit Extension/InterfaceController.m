@@ -11,6 +11,7 @@
 
 @interface InterfaceController()
 
+// for interaction with the menu, tells whether the "song" is playing
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *statusLabel;
 
 @end
@@ -29,11 +30,12 @@
     return self;
 }
 
+// corresponds with the "play" button on the menu
 - (IBAction)playPressed
 {
     [self.statusLabel setText:@"-Playing-"];
 }
-
+// corresponds with the "pause" button on the menu
 - (IBAction)pausePressed
 {
     [self.statusLabel setText:@"-Paused-"];
